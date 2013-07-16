@@ -34,7 +34,7 @@ class ZuoraController {
 
         String refId = "2c92c0f83fd52d73013fe35b40c32e65"
 
-        redirect(url: "${url}id=${id}&tenantId=${id}&timestamp=${timestamp}&token=${token}&responseSignature=${signature}&success=true&refId=${refId}&signature=${signature}&field_passthrough1=${params.field_passthrough1}&field_passthrough2=${params.field_passthrough2}")
+        redirect(url: "${url}id=${id}&tenantId=${tenantId}&timestamp=${timestamp}&token=${token}&responseSignature=${signature}&success=true&refId=${refId}&signature=${signature}&field_passthrough1=${params.field_passthrough1}&field_passthrough2=${params.field_passthrough2}")
 
     }
 
@@ -61,10 +61,4 @@ class ZuoraController {
 
         return hashedQueryStringBase64ed
     }
-
-    def generateToken(String tenant, String tokenId) {
-        "${tenant}${tokenId}"
-    }
-
-
 }

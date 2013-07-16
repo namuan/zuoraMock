@@ -6,7 +6,12 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/UrlMappings.groovy" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373902966810" ignored="false" />
-    <file path="/ZuoraController.groovy" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373910003362" ignored="false" />
+    <file path="/ZuoraController.groovy" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373972326824" ignored="false" />
+    <file path="/Dummy.txt" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373968579661" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SelfService-API/src/test/unit/uk/co/newsint/acquisition/services/PaymentMethodServiceSpec.groovy" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373970682509" ignored="false" />
+    <file path="/PaymentMethodServiceSpec.groovy" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373970538318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Acquisition/src/application.properties" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373970976748" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Acquisition/src/web-app/js/modules/AccountPopulation.js" changelist="4430f3a3-8323-4486-86cf-63f15164cbaf" time="1373970976748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +75,19 @@
       <file leaf-file-name="ZuoraController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/zuoramock/ZuoraController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.5387931">
+            <state line="36" column="225" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.389049">
               <folding>
                 <element signature="e#19#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notes" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="42" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,6 +122,7 @@
       <list>
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/grails-app/controllers/zuoramock/ZuoraController.groovy" />
       </list>
     </option>
@@ -446,9 +461,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/zuoramock/ZuoraController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.5387931">
+        <state line="36" column="225" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.389049">
           <folding>
             <element signature="e#19#64#0" expanded="true" />
           </folding>
